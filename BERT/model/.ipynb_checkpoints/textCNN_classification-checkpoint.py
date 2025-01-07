@@ -30,9 +30,9 @@ if __name__ == "__main__":
     import sys
     sys.path.append('../')
     
-    from config.config_textCNN import Config
+    from config.config_textCNN import TextCNNConfig
     
     dataset = "toutiao"
-    config = Config(dataset)
+    config = TextCNNConfig(dataset)
     model = Model(config)
     print(model)
